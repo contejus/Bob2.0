@@ -1,0 +1,19 @@
+{
+    "name": "Bob2.0",
+    "description": "A Discord bot.",
+    "repository": "https://github.com/contejus/Bob2.0",
+    "logo": "https://raw.githubusercontent.com/contejus/Bob2.0/master/logo.png",
+    "keywords": ["discord", "bot", "discord.py"],
+    "env": {
+        "DISCORD_TOKEN": {
+          "description": "Discord bot key, used to autheticate with Discord APIs."
+        },
+        "TARGET_BOB": {
+          "description": "String representation of Discord user to respond to messages (ex. 'example#0007')."
+        },
+        "TARGET_PHRASE": {
+          "description": "Phrase that the bot will respond with."
+        }
+      }
+}
+  
